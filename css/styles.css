@@ -42,7 +42,7 @@ body {
 
 .p2 {
     font-size: 12px;
-    color: #8b8b8bd7;
+    color: #8b8b8b;
     padding: 0 1.56rem 1.88rem;
 }
 
@@ -57,12 +57,21 @@ body {
 
 @media (max-width:375px) {
     .box1 {
-        width: 69.12%;
-        margin-top: 3
-        rem;
+        width: 90%;
+        margin-top: 3rem;
         margin-bottom: 3rem;
         position: relative;
-        left: 15%;
+        left: 5%;
+    }
+
+    .p1 {
+        font-size: 20px;
+        padding: 0 1.85rem;
+    }
+
+    .p2 {
+        font-size: 14px;
+        padding: 0 40px 30px;
     }
 }
  
@@ -70,9 +79,18 @@ body {
 
 @media (min-width:376px) and (max-width:768px) {
     .box1 {
-        width: 50%;
+        width: 60%;
         position: relative;
-        left: 25%;
+        left: 20%;
+    }
+    .p1 {
+        font-size: 20px;
+        padding: 0 3rem;
+    }
+
+    .p2 {
+        font-size: 14px;
+        padding: 0 40px 30px;
     }
 }
 
